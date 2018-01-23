@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Смена ГД после открытия счета</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/bootstrap.css" rel="stylesheet">
+		<link href="css/styles.css" rel="stylesheet">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="wrapper container">
+		<header>
+			
+		</header>
+
+		<div class="heading"></div>
+		
+		<div class="row">
+			<aside class="sleva">		
+			<nav>
+				<ul class="nav">
+					<li><a href="index.html"><h1>СОПы</h1></a></li>
+					<li class="active"><a href="smena_gd_after_opening.html">Смена ГД после открытия счета</a></li>
+ 					<li><a href="smena_pasporta.html">Смена паспорта</a></li>
+ 					<li><a href="cft_ip.html">Заполнить карточку клиента в ЦФТ (ИП)</a></li>
+ 				</ul>
+			</nav>
+
+			</aside>
+			<section class="sprava">
+				<div class="content">
+					<h1 class="centr">Смена ГД после открытия счета</h1>
+					<p class="centr"><img src="img/deer.gif"></p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita perspiciatis suscipit autem, ullam molestiae voluptatem mollitia sunt. Quam exercitationem voluptatibus dolore quaerat eveniet voluptatum! Vero, voluptatum aliquid fugiat tempora nesciunt?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis corporis expedita distinctio eaque, dignissimos ab! Repellendus, consequatur sint perferendis laudantium.
+					</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita perspiciatis suscipit autem, ullam molestiae voluptatem mollitia sunt. Quam exercitationem voluptatibus dolore quaerat eveniet voluptatum! Vero, voluptatum aliquid fugiat tempora nesciunt?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis corporis expedita distinctio eaque, dignissimos ab! Repellendus, consequatur sint perferendis laudantium.
+					</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita perspiciatis suscipit autem, ullam molestiae voluptatem mollitia sunt. Quam exercitationem voluptatibus dolore quaerat eveniet voluptatum! Vero, voluptatum aliquid fugiat tempora nesciunt?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis corporis expedita distinctio eaque, dignissimos ab! Repellendus, consequatur sint perferendis laudantium.
+					</p>
+				</div>
+				
+			</section>
+		</div>
+
+
+			<a id="page_up_down_button" href="#">Наверх</a>
+	<script type="text/javascript">
+    var scroll_position = null;
+
+    $('#page_up_down_button').click(function(){
+        if ($(document).scrollTop() > 0) {
+            scroll_position = $(document).scrollTop();
+            $('#page_up_down_button').html('Обратно');
+            return true;
+        } else if (scroll_position > $(document).scrollTop()) {
+            $(document).scrollTop(scroll_position);
+            $('#page_up_down_button').html('Наверх');
+            return false;
+        };
+    });
+
+    function check_status_button(){
+        if ($(document).scrollTop() > 0) {
+            scroll_position = null;
+            $('#page_up_down_button').html('Наверх');
+        };
+    };
+
+    $(window).resize(function() {
+        check_status_button();
+    });
+
+    $(window).scroll(function() {
+        check_status_button();
+    });
+</script>
+	</div>
+	<footer></footer>
+
+
+	</body>
+</html>
