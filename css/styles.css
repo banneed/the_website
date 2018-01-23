@@ -1,0 +1,76 @@
+<link href="css/bootstrap.min.css" rel="stylesheet"> 
+<link href="css/styles.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #333333;
+  background-color: #ffffff;
+  position: relative;
+	.wrapper {
+		padding: 0 0 0 0;
+	}
+}
+h1 {
+	font-family: Ubuntu;
+  font-size: 2.5em;
+  margin: 0.67em 0;
+}
+
+header {
+		margin: 0;
+	}
+
+text {
+	color: #ddd;
+}
+
+
+
+.content {
+	margin-bottom: 100px;
+}
+
+
+#page_up_down_button {
+    position: sticky;
+    bottom: 0;
+    padding-bottom: 20px;
+}
+
+
+.sleva {
+	padding-top: 50px;
+	position: fixed;
+	float: left;
+	width: 20%;
+	margin-right: 30px;
+}
+
+.sprava {padding-top: 60px;
+		float: right;
+		width: 70%;
+		padding-right: 10%;
+
+}
+
+.mainpage {
+	width: 40%;
+	margin:auto;
+	padding-top: 50px;
+}
+.centr {
+	text-align: center;
+}
+
+a {
+  color: #555;
+  padding-bottom: 3px;
+}
+
+
+.active {
+	background-color: #ddd; 
+}
